@@ -18,8 +18,7 @@ body
 {
     background-color: #e0e0e0;
     padding-top: 60px;
-    padding-left:30px;
-    padding-right:30px;
+
 }
 .navbar
 {
@@ -38,15 +37,33 @@ body
     padding:3%;
     margin-top: 20px;
     margin-bottom:50px;
-
-
+    margin-left:30px;
+    margin-right:30px;
+    width:60%;
     box-shadow:
     0 0 0px white, /*◊Û±ﬂ“ı”∞*/
     4px 0 10px #464646,
     0 0 0px white, /*∂•≤ø“ı”∞*/
     4px 10px 10px #464646; /*µ◊±ﬂ“ı”∞*/
-
 }
+.blockRight{
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: white;
+    padding:3%;
+    margin-top: 80px;
+    margin-bottom:50px;
+    margin-left:30px;
+    margin-right:30px;
+    width:30%;
+    box-shadow:
+    0 0 0px white, /*◊Û±ﬂ“ı”∞*/
+    4px 0 10px #464646,
+    0 0 0px white, /*∂•≤ø“ı”∞*/
+    4px 10px 10px #464646; /*µ◊±ﬂ“ı”∞*/
+}
+
 .block .content
 {
     padding:5%
